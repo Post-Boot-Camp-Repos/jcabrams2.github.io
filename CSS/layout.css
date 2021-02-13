@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+}
+/* .header__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+.nav__links{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.jon__name{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+}
+.subheader{
+    display: flex;
+    justify-content: center;
+}
+.picture{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:5px;
+}
+img{
+    width: 30%;
+}
+ section{
+    display: flex;
+    justify-content: left;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.header__about{
+    display: flex;
+    justify-content: start;
+}
+.about__title{
+    display: flex;
+    justify-content: start;
+    margin-right:30px;
+}
+.about__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+.about__div{
+    display: flex;
+    justify-content: center;
+}
+.projects__header{
+    display: flex;
+    justify-content: left;
+}
+.contact__title{
+    display: flex;
+    justify-content: center;
+}
+.contact__links{
+    display: flex;
+    justify-content: center;
+}
+/* img picture{
+    column-span: ;
+    height: 100%;
+    width: 50%;
+    border: 1px solid red;
+    flex: 0 0 auto;
+} */
+/* h1 {
+    display:flex;
+    justify-content: center;
+} */
+/* header{
+    display: flex;
+    flex-direction: center;
+} */

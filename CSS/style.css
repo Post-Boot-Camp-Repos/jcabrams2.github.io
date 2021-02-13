@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@500&display=swap');
+/* .greeting{
+font-family: Roboto;
+border-bottom: 2px solid black;
+width: 250px; */
+/* } */
+*{
+    scroll-behavior: smooth;
+    font-family: Roboto;
+}
+h1{
+    font-family: Rubik;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+header{
+    font-family: Roboto;
+    font-size: 16px;
+    border-bottom: 2px solid black;
+}
+.subheader{
+    font-family: Rubik;
+    font-size: 12px;
+}
+.header__about{
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+.projects__title{
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+.contact__title{
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
