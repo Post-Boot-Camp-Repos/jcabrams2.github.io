@@ -73,6 +73,11 @@ img{
     display: flex;
     justify-content: center;
 }
+.projectlist__items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 /* img picture{
     column-span: ;
     height: 100%;
