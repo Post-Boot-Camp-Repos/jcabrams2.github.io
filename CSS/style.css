@@ -78,3 +78,9 @@ header{
     display:block;
     z-index:999;
 }
+.about__description{
+    /* border: 2px solid black; */
+}
+/* .greeting__container{
+    background-image: ;
+} */

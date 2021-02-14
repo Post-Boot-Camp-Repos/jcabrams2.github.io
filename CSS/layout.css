@@ -37,7 +37,7 @@ header{
 img{
     width: 30%;
 }
- section{
+section{
     display: flex;
     justify-content: left;
     margin-top: 200px;
@@ -54,8 +54,10 @@ img{
 }
 .about__description{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: left;
+    flex-basis: auto;
+    /* justify-content: center; */
     margin-right: 50px;
 }
 .about__div{
@@ -85,6 +87,7 @@ img{
     justify-content: space-evenly;
 }
 .project__list{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -104,6 +107,7 @@ img{
     /* flex-wrap: wrap; */
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: flex-start;
     padding-left: 50px;
 }
 .skills__list{
@@ -115,6 +119,10 @@ img{
 }
 .greeting__container{
     background-color: rgba(rgba(8, 8, 8, 0.068), rgba(2, 2, 2, 0.199), rgba(9, 10, 10, 0.493), alpha);
+}
+.header__block{
+    width: 100%;
+    height: 200px;
 }
 /* img picture{
     column-span: ;
