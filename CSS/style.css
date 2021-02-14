@@ -50,3 +50,9 @@ header{
 .project__snips{
     
 }
+.git__link{
+    width: 150px;
+}
+.social__icons{
+    list-style-type: none;
+}
