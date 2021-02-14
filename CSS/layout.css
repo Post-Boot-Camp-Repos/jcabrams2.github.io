@@ -63,7 +63,7 @@ img{
 }
 .projects__header{
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 .contact__title{
     display: flex;
@@ -74,6 +74,16 @@ img{
     justify-content: center;
 }
 .projectlist__items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.snip__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.project__list{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
