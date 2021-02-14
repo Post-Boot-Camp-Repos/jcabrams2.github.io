@@ -101,8 +101,13 @@ img{
 }
 .list__skills{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
     justify-content: space-evenly;
+    padding-left: 50px;
+}
+.skills__list{
+    padding-left: 100px;
 }
 .div__span{
     -ms-grid-column-span: 500px;
