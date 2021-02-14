@@ -32,6 +32,7 @@ header{
     flex-direction: row;
     justify-content: center;
     padding:5px;
+    padding-bottom: 200px;
 }
 img{
     width: 30%;
@@ -92,7 +93,7 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-left: 60px;
+    padding-left: 120px;
 }
 .skills__header{
     display: flex;
@@ -102,6 +103,13 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+.div__span{
+    -ms-grid-column-span: 500px;
+
+}
+.greeting__container{
+    background-color: rgba(rgba(8, 8, 8, 0.068), rgba(2, 2, 2, 0.199), rgba(9, 10, 10, 0.493), alpha);
 }
 /* img picture{
     column-span: ;

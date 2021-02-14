@@ -51,15 +51,21 @@ header{
     
 }
 .git__link{
-    width: 200px;
+    width: 180px;
 }
 .social__icons{
     list-style-type: none;
 }
 .lin__link{
-    width: 150px;
+    width: 200px;
 }
 .skills__title{
     font-size: 30px;
     border-bottom: 2px solid black;
+}
+.css__logo{
+    widows: 200px;
+}
+.skills__list{
+    font-size: 20px;
 }
