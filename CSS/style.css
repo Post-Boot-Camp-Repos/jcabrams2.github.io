@@ -34,3 +34,16 @@ header{
     font-size: 30px;
     border-bottom: 2px solid black;
 }
+.projectlist__items{
+    font-size: 20px;
+    
+}
+.project__fortune{
+    border-bottom: 1px solid black;
+}
+.project__virtual{
+    border-bottom: 1px solid black;
+}
+.project__fizz{
+    border-bottom: 1px solid black;
+}
