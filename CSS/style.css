@@ -10,7 +10,7 @@ width: 250px; */
 }
 h1{
     font-family: Rubik;
-    font-size: 30px;
+    font-size: 60px;
     border-bottom: 2px solid black;
 }
 header{
@@ -51,8 +51,15 @@ header{
     
 }
 .git__link{
-    width: 150px;
+    width: 200px;
 }
 .social__icons{
     list-style-type: none;
+}
+.lin__link{
+    width: 150px;
+}
+.skills__title{
+    font-size: 30px;
+    border-bottom: 2px solid black;
 }
