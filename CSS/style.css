@@ -78,9 +78,7 @@ header{
     display:block;
     z-index:999;
 }
-.wdb__pic:hover{
-    background: url("/images/Color_We\ Dem\ Boyz!.jpg")
-}
+
 /* .greeting__container{
     background-image: ;
 } */
