@@ -78,8 +78,8 @@ header{
     display:block;
     z-index:999;
 }
-.about__description{
-    /* border: 2px solid black; */
+.wdb__pic:hover{
+    background: url("/images/Color_We\ Dem\ Boyz!.jpg")
 }
 /* .greeting__container{
     background-image: ;

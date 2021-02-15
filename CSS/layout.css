@@ -141,6 +141,10 @@ section{
     flex-direction: row;
     justify-content: center;
 }
+.footer{
+    display: flex;
+    justify-content: center;
+}
 /* img picture{
     column-span: ;
     height: 100%;
