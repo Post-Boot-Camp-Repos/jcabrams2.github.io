@@ -1,231 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <style>
-      /* .header__block{
-        background-image: url(./images/camila-waz-2l5U8g4f8hQ-unsplash.jpg);
-      }
-      .about__block{
-        background-image: url(./images/camila-waz-2l5U8g4f8hQ-unsplash.jpg);
-      }
-      .project__block{
-        background-image: url(./images/camila-waz-2l5U8g4f8hQ-unsplash.jpg);
-      }
-      .footer__block{
-        background-image: url(./images/camila-waz-2l5U8g4f8hQ-unsplash.jpg);
-      } */
-      /* .container{ */
-        /* background: url(./images/Octo_Crop.jpg); */
-      }
-      /* .open__page{
-        background-image: url(./images/IMG_20210215_0001.jpg);
-      }
-      .section{
-        background-image: url(./images/Octo_Crop.jpg);
-      } */
-    </style>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
-    <title>Jon Abrams</title>
-    <link rel="stylesheet" href="./CSS/layout.css">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./images/Octo_Crop.jpg">
-  </head>
-   <div class="container">
-  <div class="header__block">
-  </div>
-  <body>
-    <div class="greeting__container" >
-      <header class="greeting">
-        <nav class="header__nav">
-          <ul style="list-style-type:none;"class="nav__links">
-            <li class="nav__link"><a style="text-decoration:none" href="#about__me">About</a></li>
-            <li class="nav__link"><a style="text-decoration:none"href="#projects">Projects</a></li>
-            <li class="nav__link"><a style="text-decoration:none" href="#contact">Contact</a></li>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <!-- <link rel="stylesheet" href="./css/websiteDesign.css"> -->
+   <link rel="stylesheet" href="/newCSS/prototype2.css" />
+  <!-- <link rel="stylesheet" href="../../src/main/resources/Static/CSS/layout.css" /> -->
+  <!-- <link rel="stylesheet" href="./css/ratingStyle.css"> -->
+  <!-- <link rel="stylesheet" href="./css/navBar.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://kit.fontawesome.com/bc1222c043.js" crossorigin="anonymous"></script>
+</head>
+
+
+  <div class="_container">
+    <header class="_header">
+        <nav>
+           <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <!-- <label class="logo">Virtual X</label> -->
+          <ul class="nav-items-list">
+            <li class="active"><a href="/">JA </li>
+            <!-- <li><a href="/challenge">CHALLENGES</a></li>
+            <li><a href="/game">GAMES</a></li>
+            <li><a href="/chat">CHATS</a></li> -->
+            <div class="right">
+              <!-- make media querie  -->
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+              
+              
+            </div>
           </ul>
         </nav>
-        <div>
-        </header>
-        <div class="open__page">
-          <div class="jon__name">
-            <h1 class="header" id="header__name">Jon Abrams</h1>
-          </div>
-      <div class="subheader" id="subheader__title">
-        <h2>Software Developer</h2>
-      </div>
-      <div class="picture">
-        <img class="wdb__pic" id="wdb__pic"  style="border: 5px solid black;" src="/images/We Dem Boyz!.JPG"  alt=""width="250" height="450">
-      </div>
-    </div>
-    <div class="about__block">
-
-    </div>
-      <div class="section" id="about__me">
-        <div class="about__title">
-        <h2 class="header__about">About Me</h2>
-      </div>
-        <div class="about__div">
-        <!-- <p class="about__description">
-            Hi, I'm Jon! Here's me: Motocross Enthusiast and Fanatic of all things art (including sarcasm).
-            When I'm not at home with my partner and our furry family, you can find me at a local
-            motocross track putting down laps. I am a soon-to-be
-            graduate of We Can Code IT's Spring Java Stack Cohort. Once graduated I hope to plant
-            myself in a company that I can continue to learn, grow, and further hone skills with as I transition
-            into my new career field. I would love to progress my career while also finding a way to use my talents to make the world
-            a better place for all.
-            </p> -->
-        <!-- </div>
-            <div>
-            <ul  class="about__list">
-              <li>Make someone laugh</li>
-              <li>Progress every day</li>
-              <li>Respect for <em>ALL</em>living things</li>
-            </ul>
-            </div> -->
-      </div>
-        <div class="skills__container">
-        <div class="skills">
-          <div class="skills__header">
-          <h2 class="skills__title">Skills</h2>
-        </div>
-        <div class="skills__list">
-          <!-- <ul  class="list__skills">
-            <li style="list-style-type: none;" class="java__img"><img class="thumbnail" src="./images/java icon.jpg" alt="Java"></li>
-            <li style="list-style-type: none;"><img class="thumbnail" src="./images/html.png" alt=HTML></li>
-            <li style="list-style-type: none;"><img class="thumbnail" src="./images/css-116-555915.png" alt="CSS"></li>
-            <li style="list-style-type: none;"><img class="thumbnail" src="./images/azure.png" alt="Azure"></li>
-            <li style="list-style-type: none;"><img class="thumbnail" src="./images/dynamics icon.png" alt="Microsoft Dynamics"></li>
-            <li style="list-style-type: none;"><img class="thumbnail" src="./images/SQL icon.png" alt="SQL"></li>
-            <li id="jslogo" style="list-style-type: none;"><img class="thumbnail" src="./images/80-803410_javascript-logos-banner-royalty-free-library-html-css.png" alt="SQL"></li>
-          </ul> -->
-        </div>
-        </div>
-        </div>
-        </div>
-      <div class="project__block">
-
-      </div>
-        <!-- <section style="list-style-type: none;" class="projectlist__items">
-        <div class="projects" id="projects"> -->
-            <div class="projects__header">
-            <h2 class="projects__title">Projects</h2>
-            </div>
-            <!-- <div class="project__list">
-            <article >
-                <li class="project__fortune">Fortune Teller</li>
-            </article>
-            <article>
-                <li style="list-style-type: none;" class="project__virtual">Virtual Pet</li>
-            </article>
-            <article>
-                <a href=""> <li style="list-style-type: none;" class="project__fizz">MVC - POST-IT Application</li></a>
-            </article>
-        </div>
-        <div class="project__snips"> --> -->
-            <!-- <ul class="snip__list">
-                <img src="./images/snip fortune.JPG" alt="">
-                <img src="./images/VP snip.JPG" alt="">
-                <img src="./images/Post it App Snip.PNG" alt="">
-            </ul> -->
-        </div>
-        </div>
-        </section>
-        </div>
-        <div class="contact" id="contact">
-          <div class="contact__header">
-            <h2 class="contact__title">Contact Me</h2>
-            <div class="footer__block">
-
-            </div>
-            <ul class="social__icons">
-              <li class="git__link"><a target="blank" href="https://github.com/jcabrams2"><img src="./images/github icon lg.png" alt=""></i></a></li>
-              <li class="lin__link"><a target="blank" href="https://www.linkedin.com/in/jonathon-abrams-ba58771a5/"><img src="./images/linkedin-icon-png-transparent-background-13.png" alt=""></a></li>
-            </ul>
-            </div>
+    </header>
+        <body>
+            <div class="firstimg">
+                <div class="text">
+                  <!-- <span class="border"> -->
+                  <p class="name-main"> Jon Abrams</p>
+                   <!-- <p>Software Developer</p> -->
+                  <!-- </span> -->
+                  <h6 class="whatido">Software Engineer <span style="color: red;">/</span> Web Developer</h6>
+                  <!-- <p>Web Developer</p> -->
+                </div>
               </div>
-              <footer>
-                <div class="footer">
-                &copy;Copyright 2021
+           
+              <section class="section section-dark">
+                <h2></h2>
+                <p>
+                  <!-- Web Dev Trick is a blog for web designers, graphic designers, web developers &amp; SEO Learner as well as freelancers seeking to broaden their mind and also enhance their skills. We highly believe that top quality is much better than quantity. We share resources regarding design &amp; development, graphics, WordPress as well as Coding. -->
+                </p>
+              </section>
+           
+              <div class="secondimg">
+                <div class="text">
+                  <!-- <span class="border trans">
+                    
+                  </span> -->
+                </div>
               </div>
-              </footer>
-        </div>
-      </body>
-      <html>
-        
-<!--       
-      <div class="main">
-        <div class="about main__content" id="about__me">
-        <section>
-          <h2 class="about__title main-content__title"></h2> -->
-          <!-- put selfie/headshot here -->
-          <!-- <img src="" alt="">
-          <p class="bio"id="bio__paragraph">
-            Tenacious, Bearded Veteran, Motocross Enthusiast, and Finatic of all things art.  I am a soon
-            to be graduate of WeCanCodeIT's Spring Java Stack Cohort. Once graduate I hope to plant
-            myself in a company that I can continue to learn, and further hone my new skills as I transition
-            into my new career field. I believe that my strong background in IT/Systems Management melded with 
-            my newly acquired development skills will prepare me for a wide range of ...
-          </p>
+           
+              <section class="section section-dark">
+                <h2 id="about">About</h2>
+                <div class="about-container">
+               <a href=""> <img id="main-pic" src="/newImages/We Dem Boyz!.JPG" alt=""></a>
+                <p class="about-text">
+                  I am an Air Force Veteran, motocross enthusiast, and admirer of all things art and nature. I am a recent graduate from We Can Code IT’s Full-Stack Java boot camp. In school I was able to build a core skill set developing back end Java, JavaScript, as well as extensive front end experience developing websites and web applications using HTML/CSS/SCSS etc. I also focused on gaining comprehensive skills in developing mobile versions of websites and web applications through the use of various back end code dependencies and dynamic media queries in the front end code.  I believe with my years in Systems Administration and Project Management, mixed with my Java Stack education would make me adaptable to a wide variety of Development opportunities.
+                  <!-- We share HTML5, CSS3,  Bootstrap, JavaScript, PHP and many more web language’s  Examples, Tutorials &amp; Source Code as well as Graphic Desing and SEO’s stuff. -->
+                  
+                </p>
+                <div class="skills__list">
+                  <ul  class="list__skills">
+                    <li style="list-style-type: none;" class="javaIcon"><img class="thumbnail" src="/oldImages/java icon.jpg" alt="Java"></li>
+                    <li style="list-style-type: none;" class="htmlIcon" ><img class="thumbnail" src="/oldImages/html.png" alt=HTML></li>
+                    <li style="list-style-type: none;" class="cssIcon"><img class="thumbnail" src="/newImages/cssIcon.png" alt="CSS"></li>
+                    <li style="list-style-type: none;"><img class="thumbnail" src="/newImages/726px-Javascript-shield.svg.png" alt="js"></li>
+                    <li style="list-style-type: none;"><img class="thumbnail" src="/newImages/1280px-Sass_Logo_Color.svg.png" alt="sass"></li>
+                    <li style="list-style-type: none;"><img class="thumbnail" src="/newImages/1280px-React-icon.svg.png" alt="react"></li>
+                    <!-- <li id="jslogo" style="list-style-type: none;"><img class="thumbnail" src="./images/80-803410_javascript-logos-banner-royalty-free-library-html-css.png" alt=""></li> -->
+                  </ul>
+                </div>
+              
+              <!-- <div> -->
+                <!-- <ul class="skills-list">
+                <li class="skill-item"><img src="/oldImages/java icon.jpg" alt=""></li>
+                            -->
+              </ul>
+              </div>
+              </section>
+           
+              <div class="thirdimg">
+                <div class="text">
+                  
+                </div>
+              </div>
+           
+              <section class="section section-dark">
+                <h2 id="projects">Projects</h2>
+                <p>
+                  
 
-          <p class="skills" id="skills__paragraph"></p>
-            <ul>
-              <li>Java</li>
-              <li>HTML 5</li>
-              <li>CSS </li>
-              <li>Vanilla JS </li>
-              <li>Azure</li>
-              <li>Network Administration</li>
-              <li>O365 / AD Management</li>
-            </ul> -->
-            <!-- List skills here from WCCI and some past IT exp. -->
-          <!-- </p>
-        </section>
-        </div>
-        <section class="projects main__content">
-          
-          <h2 class="main-content__title projects__title" id="projects">
-            Projects
-          </h2>
-          <article class="projects__project">
-            <h3 class="project__title">Fizz Buzz Qix</h3>
-            <p class="project__description">
-            
-            </p>
-            <p class="project__date">2021</p>
-          </article>
-          <article class="projects__project">
-            <h3 class="project__title">Fortune Teller</h3>
-            <p class="project__description">
+<div class="carousel-wrapper">
+  <span id="item-1"></span>
+  <span id="item-2"></span>
+  <span id="item-3"></span>
+  <div class="carousel-item item-1">
+    <h2></h2>
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus   accumsan pretium dolor vel convallis. Aliquam erat volutpat. Maecenas lacus nunc, imperdiet sed mi et, finibus suscipit mi.</p> -->
+    <a class="arrow arrow-prev" href="#item-3"></a>
+    <a class="arrow arrow-next" href="#item-2"></a>
+    <h2></h2>
+  </div>
+  
+  <div class="carousel-item item-2">
+    <h2></h2>
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p> -->
+    <a class="arrow arrow-prev" href="#item-1"></a>
+    <a class="arrow arrow-next" href="#item-3"></a>
+  </div>
+  
+  <div class="carousel-item item-3">
+    <h2></h2>
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p> -->
+    <a class="arrow arrow-prev" href="#item-2"></a>
+    <a class="arrow arrow-next" href="#item-1"></a>
+  </div>
+</div>
+
+
+                  <!-- <a class="project-snip" href=""><img class="project-snip" src="/newImages/virtualx snip.PNG" alt=""></a> -->
+                  <!-- Web Dev Trick is a digital playground for individuals who want to learn. Our study will keep you on top of the most recent trends with some of the most effective and interesting content. You’ll discover here guidelines, case studies, development, design &amp; advancement sources, suggestions &amp; methods, and various other associated internet articles to help you develop beneficial ability in your individual and also specialist job. -->
+                </p>
+              </section>
+           
+              <div class="forthimg">
+                <div class="text">
+                </div>
+                
+              </div>
+              <section class="section section-dark">
+                <h2 id="contact">Contact</h2>
+                <p>
+                  
+                 <a  href="https://github.com/jcabrams2" target="_blank"><img class="contact-link"  src="/newImages/github-icon-61.png" style="color: red;" alt=""></a> 
+                  <a  href="https://www.linkedin.com/in/jonathon-abramsii/" target="_blank"><img class="contact-link" src="/newImages/linkedin-5-512.png"  alt=""></a>
+                </p>
+               <p> &copy; Jonathon Abrams 2021</p>
+              </section>
               
-            </p>
-            <p class="project__date">2021</p>
-          </article>
-          <article class="projects__project">
-            <h3 class="project__title">Virtual Pet</h3>
-            <p class="project__description">
-              
-            </p>
-            <p class="project__date">2021</p>
-          </article>
-        </section>
-        <section class="contact" id="contact">
-          <h2 class="main-content__title">How to reach me</h2>
-          <p class="contact-info"></p>
-        </section>
-      </div>
-    </body>
-        <aside class="picture">
-          <img
-            src="C:\users\admin\codeProjects\jcabrams2.github.io\thumbnail_IMG_1858.jpg"
-            alt=""
-            class="picture__img"/>
-            
-        </aside>
-      </div>
-      <footer class="footer">
+      
         
-      </footer>
-    </div>
-  </body>
+    <!-- <footer class="_footer">&copy;2021 Jonathon Abrams</footer> -->
+    <script src="/JS/slick.js"></script>
+    <script src="/JS/jquery.min.js"></script>
+  </div>
+</body>
+
 </html>
